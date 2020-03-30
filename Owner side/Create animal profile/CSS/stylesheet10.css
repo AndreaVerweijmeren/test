@@ -137,7 +137,6 @@ img.avatar {
 
 /* Add padding to containers */
 .container {
-	margin-top: 5px;
 	max-height: 250px;
   	padding: 36px;
 	font-family: lato;
