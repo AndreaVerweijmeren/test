@@ -1,10 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-* {box-sizing: border-box}
 
 body {
 	background-color: #7B94AD;
+	max-height: auto;
+	max-width: auto;
 }
 
 
@@ -100,7 +101,6 @@ main {
 }
 
 
-
 img {
   	max-width: 50%;
 }
@@ -137,7 +137,7 @@ img.avatar {
 
 /* Add padding to containers */
 .container {
-	max-height: 250px;
+	max-height: 300px;
   	padding: 36px;
 	font-family: lato;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -210,7 +210,7 @@ a:hover {
 
 .column {
 	margin-left: 15px;
-	max-height: 105px;
+	max-height: 150px;
 }
 
 li {
@@ -335,8 +335,8 @@ input:checked + .slider:before {
 
 
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   position: relative;
   transition: 200ms;
@@ -353,8 +353,8 @@ input:checked + .slider:before {
 
 
 .img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: none;
 }
