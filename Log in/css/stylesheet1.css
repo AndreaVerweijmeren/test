@@ -26,12 +26,12 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-  font-family: lato;
+  font-family: Roboto Medium;
 }
 
 /* Add a hover effect for buttons */
 button:hover {
-  opacity: 0.8;
+background-color: #f5b0af;
 }
 
 

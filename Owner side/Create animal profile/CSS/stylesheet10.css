@@ -4,8 +4,6 @@
 
 body {
 	background-color: #7B94AD;
-	max-height: auto;
-	max-width: auto;
 }
 
 
@@ -13,6 +11,11 @@ p {
 	color: black;
 	font-family: lato;
 }
+
+option {
+	background-color: #f5b0af;
+}
+
 
 header{ 
 	padding: 20px;
@@ -41,7 +44,7 @@ header{
   	padding: 7px 12px;
   	text-align: center;
   	justify-content: center;
-	font-family: lato;
+	font-family: "Roboto Medium";
 }
 
 .button2 {
@@ -52,7 +55,7 @@ header{
   	cursor: pointer;
   	background-color: #4D667E;
   	padding: 7px 12px;
-	font-family: lato;
+	font-family: "Roboto Medium";
 }
 
 /* The Modal (background) */
@@ -96,39 +99,24 @@ header{
 }
 
 main {
-	margin-top: 20px;
 	font-family: lato;
 }
 
-
-img {
-  	max-width: 50%;
-}
-
-
-.picture {
-	display: inline-block;
-}
 
 .avatar {
-	text-align: center;
-  	margin: 24px 0 12px 0;
-	background-color: #f5b0af;
+  margin: 24px 0 12px 0;
+  background-color: #f5b0af;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-button:hover {
-  opacity: 0.8;
+.button2:hover {
+  background-color: #f5b0af;
 }
 
-.save {
-	float: right;
-  	border: none;
-	background-color: #ABC4DF;
-	text-align: center;
-	margin-right: 25px;
-	margin-top: 5px;
-	font-family: lato;
-}
+
 
 img.avatar {
   width: 40%;
@@ -182,41 +170,15 @@ input[type=text]:focus, input[type=password]:focus {
   font-family: lato;
 }
 
-.img1{
-	max-height: 50px;
-	max-width: 50px;
-	margin: 5px;
-}
-
 
 a {
 	color: white;
-	font-family: lato;
+	font-family: "Roboto Medium";
 }
 
 a:hover {
 	color: white;
 	text-decoration: none;
-}
-
-.dropdown-menu{
-	max-height: 180px;
-	background-color: #82ADA9;
-}
-
-.btn-group {
-	width: 100%;
-}
-
-.column {
-	margin-left: 15px;
-	max-height: 150px;
-}
-
-li {
-	margin-left: 5px;
-	margin-right: 25px;
-	font-family: lato;
 }
 
 
@@ -305,7 +267,7 @@ input:checked + .slider:before {
 /* Set a style for the submit/register button */
 .registerbtn {
   background-color: #f5b0af;
-  color: black;
+  color: white;
   padding: 10px;
   margin: 0px 0 10px 0;
   display: inline-block;
@@ -315,7 +277,8 @@ input:checked + .slider:before {
   opacity: 0.9;
   text-align: center;
   border-radius: 10px;
-  font-family: lato;
+  font-family: "Roboto Medium"
+  
 }
 
 .register {
@@ -326,11 +289,10 @@ input:checked + .slider:before {
   border: none;
   background: #ABC4DF;
   text-align: left;
-  font-family: lato;
 }
 
 .registerbtn:hover {
-  opacity:1;
+  background-color: #4D667E;
 }
 
 
@@ -394,7 +356,6 @@ input:checked + .slider:before {
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
   background-color: #e28f7c;
   color: #fff;
   text-align: center;
@@ -402,7 +363,7 @@ input:checked + .slider:before {
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 100%;
   left: 50%;
   margin-left: -80px;
   font-family: lato;

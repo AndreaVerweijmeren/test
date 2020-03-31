@@ -8,33 +8,6 @@ body {
   padding: 20px;
 }
 
-.icon-bar {
-  width: 100%;
-  background-color:#82ADA9;
-  overflow: auto;
-  margin-top: 15px;
-}
-
-.icon-bar a {
-  float: left;
-  text-align: center;
-  width: 20%;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-
-.icon-bar a:hover {
-  background-color:#AB5C59;
-}
-
-.active {
-  background-color: #888;
-}
-
-
 .d-flex {
   padding-bottom: 20px;
 }
@@ -71,7 +44,7 @@ img .avatar {
   	cursor: pointer;
   	background-color: #4D667E;
   	padding: 7px 12px;
-	font-family: lato;
+	font-family: "Roboto Medium";
 }
 
 .button1 {
@@ -82,12 +55,20 @@ img .avatar {
   	cursor: pointer;
   	background-color: #4D667E;
   	padding: 7px 12px;
-	font-family: lato;
+	font-family: "Roboto Medium";
 }
 
 
+.button2:hover {
+	background-color: #f5b0af;
+}
+
+.button1:hover {
+	background-color: #f5b0af;
+}
+
 button:hover {
-  opacity: 0.8;
+	background-color:  #4D667E; 
 }
 
 /* Full-width input fields */
@@ -102,7 +83,7 @@ input[type=text], input[type=password] {
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #7B94AD;
+  background-color: white;
   outline: none;
   font-family: lato;
 }
@@ -128,11 +109,11 @@ main {
   display: inline-block;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   opacity: 0.9;
-  text-align: left;
   font-family: lato;
   border-radius: 10px;
+  text-align: center;
 }
 
 .registerbtn:hover {
@@ -202,4 +183,8 @@ footer {
 .logout10 {
 	margin-bottom: 120px;
 	font-family: lato;
+}
+
+.button {
+	text-align: center;
 }
