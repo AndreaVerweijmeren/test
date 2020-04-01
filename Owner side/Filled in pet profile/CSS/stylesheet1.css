@@ -85,7 +85,7 @@ body {
 /* Add padding to containers */
 .container {
 	margin-top: 5px;
-	max-height: 350px;
+	max-height: 270px;
   	padding: 36px;
 	font-family: lato;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
