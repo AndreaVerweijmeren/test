@@ -67,6 +67,11 @@ body {
 	cursor: pointer;
 }
 
+.d {
+	margin-top: 50px;
+	text-align: center;
+}
+
 
 .logout {
 	text-align: center;
@@ -80,7 +85,7 @@ body {
 /* Add padding to containers */
 .container {
 	margin-top: 5px;
-	max-height: 250px;
+	max-height: 350px;
   	padding: 36px;
 	font-family: lato;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -183,43 +188,12 @@ a:hover{
   text-decoration: none;
 }
 /* For avatar image upload */
-.avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  position: relative;
-  transition: 200ms;
-  background: #fff;
-  
-}
-.avatar:hover img {
-  opacity: .6;
-}
-.avatar:hover .upload {
-  opacity: 1;
-}
+
 
 #to-hide {
   visibility: hidden;
 }
-.upload {
-  width: 40px;
-  height: 40px;
-  background: #e2e2e2;
-  border: none;
-  box-shadow: 0 0 0 6px #fff;
-  border-radius: 50%;
-  outline: none;
-  color: #000;
-  position: absolute;
-  bottom: 5px;
-  left: 10px;
-  opacity: 0;
-  transition: 200ms;
-}
-.upload:hover {
-  background: #555;
-  color: #fff;
+
 }
 /* row*/
 .row {
