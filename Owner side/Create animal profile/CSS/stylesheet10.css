@@ -322,7 +322,7 @@ input:checked + .slider:before {
 }
 
 #to-hide {
-  visibility: hidden;
+display: none;
 }
 
 .upload {
