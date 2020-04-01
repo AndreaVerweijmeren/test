@@ -150,18 +150,22 @@ input:checked + .slider:before {
 }
 /*fonts*/
 h6{
- font-family: 'Roboto', sans-serif;	
- font-weight: bold; 
+ font-family: lato;
  margin-right: 8px;
 }
-h{
-	font-family: 'Roboto', sans-serif;		
+
+
+h1 {
+	color: white;
+	font-family: "Roboto Medium";
 }
+
 p{
-font-family: 'Lato', sans-serif;	
+font-family: 'Lato';	
 }
+
 a{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato',;
 }
 
 .pluto {

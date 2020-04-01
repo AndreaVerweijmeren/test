@@ -47,7 +47,11 @@ header{
   	cursor: pointer;
   	background-color: #82ada9;
   	padding: 7px 12px;
-	font-family: lato;
+	font-family: "Roboto Medium";
+}
+
+.button2:hover {
+	background-color: #e28f7c;
 }
 
 /* The Modal (background) */
@@ -276,11 +280,11 @@ input:checked + .slider:before {
   opacity: 0.9;
   text-align: center;
   border-radius: 10px;
-  font-family: lato;
+  font-family: "Roboto Medium";
 }
 
 .registerbtn:hover {
-  opacity:1;
+  background-color: #82ada9
 }
 
 
