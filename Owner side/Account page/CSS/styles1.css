@@ -29,6 +29,11 @@ body {
   font-family: lato;
 }
 
+.img2 {
+	width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
 img .avatar {
   width: 40%;

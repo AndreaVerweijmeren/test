@@ -123,6 +123,12 @@ img.avatar {
   border-radius: 50%;
 }
 
+.img2 {
+	width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
 /* Add padding to containers */
 .container {
 	max-height: 350px;
@@ -323,6 +329,7 @@ input:checked + .slider:before {
 
 #to-hide {
 display: none;
+	
 }
 
 .upload {
@@ -339,6 +346,7 @@ display: none;
   left: 10px;
   opacity: 0;
   transition: 200ms;
+	
 }
 
 .upload:hover {
