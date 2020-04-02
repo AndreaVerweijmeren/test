@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	background-color:#B2DFDB
-}
 
+body {
+	background-color: #b2dfdb;
+}
 
 
 .container {
@@ -15,62 +15,26 @@ body {
 	overflow-x: hidden; /* Hide horizontal scrollbar */
   	overflow-y: scroll; /* Add vertical scrollbar */
 }
+
 header{
-	padding-top:30px;
+	padding-top:  30px;
 	font-family: 'Roboto', sans-serif;	
 }
 
-.btn {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  cursor: pointer;
+
+/* pet image size restrictions */
+#Pet_img {
+	width:100%; 
+} 
+
+#Pet_img2 {
+	width:100%; 
 }
-
-.box {
-	align-content: center;
-	text-align: center;
-	border: 3px;
-	border-color: black;
-	width: 300;
-	height: 50;
-	margin: 20;
-	padding: 20;
-	background-color:#82ADA9;
- 	overflow: auto;
-	cursor: pointer;
-}
-
-
-
-.logout {
-	text-align: center;
-	margin-top: 75px;
-	background-color:#82ADA9;
-	cursor: pointer;
-
-	
-}
-
-.container {
-	align-content: center;
-	margin-top: 40px;
-	height: 380px;
-}
-
-.boxes ul a:hover {
-	background-color: #AB5C59;
-}
-
-.logo {
-	align-content: center;
-	display: block;
-	margin: auto;
-	margin-top: 25px;
-}
-
-footer {
-	margin-top: 100px;
+/*settings for the sliders*/
+.yes {
+	float: right;
+	font-family: lato;
+	margin-left: 20px;
 }
 
 /* The switch - the box around the slider */
@@ -100,7 +64,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f5b0af;
+  background-color: #e28f7c ;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -140,3 +104,40 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+/* row background settings */
+.row {
+	background-color: #82ada9;
+}
+/*fonts*/
+
+h1{
+ font-family: "Roboto Medium";
+ margin-right: 8px;
+ color: white;
+}
+
+h{
+	font-family: lato;		
+}
+
+p{
+font-family: 'Lato';	
+}
+
+a{
+	font-family: 'Lato',;
+}
+
+.pluto {
+	padding: 10px;
+}
+
+
+h5 {
+	margin-top: 5px;
+	margin-left: 8px;
+}
+
+.pet {  
+margin-top: 5px;
+}
